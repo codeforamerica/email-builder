@@ -1,9 +1,9 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width"/>
-  <style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width"/>
+	<style>
 /**********************************************
 * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
 **********************************************/
@@ -336,11 +336,11 @@ h1, h2, h3, h4, h5, h6 {
   word-break: normal;
 }
 
-h1 {font-size: 36px;}
-h2 {font-size: 32px;}
-h3 {font-size: 28px;}
-h4 {font-size: 24px;}
-h5 {font-size: 20px;}
+h1 {font-size: 40px;}
+h2 {font-size: 36px;}
+h3 {font-size: 32px;}
+h4 {font-size: 28px;}
+h5 {font-size: 24px;}
 h6 {font-size: 20px;}
 body, table.body, p, td {font-size: 14px;line-height:19px;}
 
@@ -556,8 +556,8 @@ table.success:hover td {
 }
 
 table.alert td {
-  background: #aa1c3a;
-  border-color: #aa1c3a;
+  background: #c60f13;
+  border-color: #970b0e;
 }
 
 table.alert:hover td {
@@ -587,8 +587,8 @@ body.outlook p {
 @media only screen and (max-width: 600px) {
 
   table[class="body"] img {
-    /*width: auto !important;*/
-    /*height: auto !important;*/
+    width: auto !important;
+    height: auto !important;
   }
 
   table[class="body"] center {
@@ -729,13 +729,13 @@ body.outlook p {
       font-size: 11px;
     }
 
-    .callout .wrapper {
-      padding-bottom: 20px;
-    }
-
     .callout .panel {
       background: #ECF8FF;
       border-color: #b9e5ff;
+    }
+
+    .header {
+      background: #999999;
     }
 
     .footer .wrapper {
@@ -770,121 +770,158 @@ body.outlook p {
       }
     }
 
-    /**********************************************
-    * Code for America specific styles            *
-    **********************************************/
-    
-    /* Basic layout */
-    body {
-      background-color: #f2f2f2;
-    }
-    table.body {
-      margin-top: 30px;
-      margin-bottom: 30px;
-    }
-    table.container {
-      background-color: white;
-    }
-    table.columns .text-pad {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    table.section {
-      margin-bottom: 30px;
-    }
-
-    /* Typography */
-    h1, h5 {
-      font-weight: bold;
-      letter-spacing: -1px;
-    }
-    h5 {
-      margin-bottom: 12px;
-    }
-    p.overline {
-      font-size: 12px;
-      text-transform: uppercase;
-      color: #a8a8a8;
-      letter-spacing: 2px;
-    }
-    p.footer-text {
-      font-size: 10px;
-      color: #a8a8a8;
-    }
-    /* Steps graphic */
-    span.number {
-      display: block;
-      background-color: #aa1c3a;
-      height: 16px;
-      width: 16px;
-      font-size: 16px;
-      font-weight: bold;
-      padding: 6px;
-      color: white;
-      border-radius: 100%;
-      text-align: center;
-    }
-    p.steps-header {
-      font-weight: bold;
-    }
-    /* finished steps */
-    span.number.finished {
-      background-color: #ccc;
-    }
-    p.steps-header.finished,
-    p.steps-text.finished {
-      text-decoration: line-through;
-    }
-    @media only screen and (max-width: 600px) {
-      h1 { font-size: 30px; }
-    }
   </style>
 </head>
 <body>
-  <table class="body">
-    <tr>
-      <td class="center" align="center" valign="top">
+	<table class="body">
+		<tr>
+			<td class="center" align="center" valign="top">
         <center>
+
+          <table class="row header">
+            <tr>
+              <td class="center" align="center">
+                <center>
+
+                  <table class="container">
+                    <tr>
+                      <td class="wrapper last">
+
+                        <table class="twelve columns">
+                          <tr>
+                            <td class="six sub-columns">
+                              <img src="http://placehold.it/200x50">
+                            </td>
+                            <td class="six sub-columns last" style="text-align:right; vertical-align:middle;">
+                              <span class="template-label">SIDEBAR</span>
+                            </td>
+                            <td class="expander"></td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+
+                </center>
+              </td>
+            </tr>
+          </table>
+
+				 <br>
 
           <table class="container">
             <tr>
               <td>
 
+              <!-- content start -->
+
                 <table class="row">
                   <tr>
-                    <td class="wrapper last">
+                    <td class="wrapper">
 
-                      <table class="twelve columns section">
+                      <table class="six columns">
                         <tr>
-                          <td class="center">
-                            <center>
-                              <img class="center" src="image/cfalogo.jpg" alt="" width="180px" height="70px" />
-                            </center>
+                          <td>
+                            <h2>Hello,<br> Han Fastolfe</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet.</p>
                           </td>
                           <td class="expander"></td>
                         </tr>
                       </table>
 
-                      <table class="twelve columns section">
+                      <table class="six columns">
                         <tr>
-                          <td class="text-pad">
-                            <p class="overline"><span class="center">2016 Fellowship Application</span></p>
-                            <h1 class="center">You completed the first step. Keep going!</h1>
+                          <td class="panel">
+                            <p>Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. <a href="#">Click it! »</a></p>
                           </td>
+
                           <td class="expander"></td>
                         </tr>
                       </table>
 
-
-                      <table class="ten columns section">
+                      <table class="six columns">
                         <tr>
-                          <td class="text-pad">
-                            <p>Thanks for filling out Step 1 of the application, David Leonard. Keep the ball rolling and get started on Step 2.</p>
-                            <p>Have any questions? Reach out to use at <a href="mailto:fellowship-staff@codeforamerica.org">fellowship-staff@codeforamerica.org</a>.</p>
-                            <table class="button alert">
+                          <td>
+                            <br>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Lorem ipsum dolor sit amet.</p>
+
+                            <table class="button">
                               <tr>
                                 <td>
-                                  <a href="#">Start Step #2: Written Response</a>
+                                  <a href="#">Click Me!</a>
+                                </td>
+                              </tr>
+                            </table>
+
+                          </td>
+                          <td class="expander"></td>
+                        </tr>
+                      </table>
+
+                    </td>
+                    <td class="wrapper last">
+
+                      <table class="six columns">
+                        <tr>
+                          <td class="panel">
+                            <h6>Header Thing</h6>
+                            <p>Sub-head or something</p>
+                            <table>
+                              <tr>
+                                <td>
+                                  <a href="#">Just a Plain Link &raquo;</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td>
+                                  <a href="#">Just a Plain Link &raquo;</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td>
+                                  <a href="#">Just a Plain Link &raquo;</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td>
+                                  <a href="#">Just a Plain Link &raquo;</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td>
+                                  <a href="#">Just a Plain Link &raquo;</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td>
+                                  <a href="#">Just a Plain Link &raquo;</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <hr>
+                            <table>
+                              <tr>
+                                <td>
+                                  <a href="#">Just a Plain Link &raquo;</a>
                                 </td>
                               </tr>
                             </table>
@@ -893,23 +930,43 @@ body.outlook p {
                         </tr>
                       </table>
 
-                      <table class="ten columns main section">
+                      <br>
+
+                      <table class="six columns">
                         <tr>
-                          <td class="text-pad">
-                            <h5>Application Steps</h5>
-                            <p>There are 3 steps in the application process &mdash; you've already completed the first!</p>
-                            
-                            <p><span class="number finished">1</span></p>
-                            <p class="steps-header finished">Step 1: Basic Information</p>
-                            <p class="steps-text finished">Quick questions about you, your skill set, and your background (5 minutes)</p>
-                            
-                            <p><span class="number">2</span></p>
-                            <p class="steps-header">Step 2: Written Responses</p>
-                            <p class="steps-text">In-depth questions about your interest in the fellowship. (15-30 minutes)</p>
-                            
-                            <p><span class="number">3</span></p>
-                            <p class="steps-header">Step 3: Skills Challenge</p>
-                            <p class="steps-text">A 20-30 minute task that tests your chosen skillset.</p>
+                          <td class="panel">
+                            <h6 style="margin-bottom:5px;">Connect With Us:</h6>
+                            <table class="tiny-button facebook">
+                              <tr>
+                                <td>
+                                  <a href="#">Facebook</a>
+                                </td>
+                              </tr>
+                            </table>
+
+                            <hr>
+
+                            <table class="tiny-button twitter">
+                              <tr>
+                                <td>
+                                  <a href="#">Twitter</a>
+                                </td>
+                              </tr>
+                            </table>
+
+                            <hr>
+
+                            <table class="tiny-button google-plus">
+                              <tr>
+                                <td>
+                                  <a href="#">Google +</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <br>
+                            <h6 style="margin-bottom:5px;">Contact Info:</h6>
+                            <p>Phone: <b>408.341.0600</b></p>
+                            <p>Email: <a href="mailto:hseldon@trantor.com">hseldon@trantor.com</a></p>
                           </td>
                           <td class="expander"></td>
                         </tr>
@@ -917,19 +974,19 @@ body.outlook p {
 
                     </td>
                   </tr>
-                </table><!-- end table.row -->
-
-
+                </table>
+                <br>
+                <br>
+                <!-- Legal + Unsubscribe -->
                 <table class="row">
                   <tr>
                     <td class="wrapper last">
 
                       <table class="twelve columns">
                         <tr>
-                          <td class="center">
+                          <td align="center">
                             <center>
-                              <p class="footer-text"><span class="center">You recieved this email because you filled out a 2016 Fellowship Application form. If you have questions or believe you recieved this email in error, please contact us at fellowship-staff@codeforamerica.org.</span></p>
-                              <p class="footer-text"><span class="center">Code for America &#8226; 155 9th Street &#8226; San Francisco, CA 94103 &#8226; USA</span></p>
+                              <p style="text-align:center;"><a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Unsubscribe</a></p>
                             </center>
                           </td>
                           <td class="expander"></td>
@@ -938,7 +995,7 @@ body.outlook p {
 
                     </td>
                   </tr>
-                </table><!-- end table.row -->
+                </table>
 
               <!-- container end below -->
               </td>
@@ -946,8 +1003,8 @@ body.outlook p {
           </table>
 
         </center>
-      </td>
-    </tr>
-  </table>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>
