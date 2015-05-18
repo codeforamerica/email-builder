@@ -1,0 +1,15 @@
+{
+  "name": "email-builder",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeforamerica/email-builder"
+  },
+  "description": "Email templates + builder for Code for America",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-premailer": "0.2.5",
+    "grunt-jekyll": "~0.4.1"
+  }
+}
