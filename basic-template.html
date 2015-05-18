@@ -792,20 +792,26 @@ body.outlook p {
     table.section {
       margin-bottom: 30px;
     }
+    table.heading {
+      margin-bottom: 15px;
+    }
 
     /* Typography */
     h1, h5 {
       font-weight: bold;
-      letter-spacing: -1px;
+    }
+    h1 {
+      letter-spacing: -0.03em;
     }
     h5 {
+      letter-spacing: -0.03em;
       margin-bottom: 12px;
     }
     p.overline {
       font-size: 12px;
       text-transform: uppercase;
       color: #a8a8a8;
-      letter-spacing: 2px;
+      letter-spacing: 0.05em;
     }
     p.footer-text {
       font-size: 10px;
@@ -840,7 +846,18 @@ body.outlook p {
 
     /* media queries */
     @media only screen and (max-width: 600px) {
-      h1 { font-size: 30px; }
+      h1 { font-size: 24px; }
+      p { font-size: 13px; }
+      p.overline {
+        letter-spacing: 0.03em;
+      }
+      table.button td a {
+        font-size: 13px;
+      }
+      table.section {
+        margin-bottom: 15px;
+      }
+
     }
   </style>
 </head>
@@ -858,7 +875,7 @@ body.outlook p {
                   <tr>
                     <td class="wrapper last">
 
-                      <table class="twelve columns section">
+                      <table class="twelve columns heading">
                         <tr>
                           <td class="center">
                             <center>
