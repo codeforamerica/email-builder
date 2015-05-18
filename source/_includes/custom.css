@@ -1,0 +1,95 @@
+<style>
+/**********************************************
+* Code for America specific styles            *
+**********************************************/
+
+/* Basic layout */
+body {
+  background-color: #f2f2f2;
+}
+table.columns .text-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table.container {
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
+  -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
+  box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
+}
+table.columns .text-pad {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+table.section {
+  margin-bottom: 30px;
+}
+table.heading {
+  margin-bottom: 15px;
+}
+
+/* Typography */
+h1, h5 {
+  font-weight: bold;
+}
+h1 {
+  letter-spacing: -0.03em;
+}
+h5 {
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+}
+p.overline {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+  letter-spacing: 0.05em;
+}
+p.footer-text {
+  font-size: 10px;
+  color: #a8a8a8;
+}
+
+/* Steps graphic */
+span.number {
+  display: block;
+  background-color: #aa1c3a;
+  height: 16px;
+  width: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+p.steps-header {
+  font-weight: bold;
+}
+
+/* finished steps */
+span.number.finished {
+  background-color: #ccc;
+}
+p.steps-header.finished,
+p.steps-text.finished {
+  text-decoration: line-through;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+  h1 { font-size: 24px; }
+  p { font-size: 13px; }
+  p.overline {
+    letter-spacing: 0.03em;
+  }
+  table.button td a {
+    font-size: 13px;
+  }
+  table.section {
+    margin-bottom: 15px;
+  }
+}
+</style>

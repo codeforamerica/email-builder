@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -692,178 +694,102 @@ body.outlook p {
     display: inherit !important;
   }
 }
-
-  </style>
+</style>
   <style>
+/**********************************************
+* Code for America specific styles            *
+**********************************************/
 
-    table.facebook td {
-      background: #3b5998;
-      border-color: #2d4473;
-    }
+/* Basic layout */
+body {
+  background-color: #f2f2f2;
+}
+table.columns .text-pad {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table.container {
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
+  -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
+  box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
+}
+table.columns .text-pad {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+table.section {
+  margin-bottom: 30px;
+}
+table.heading {
+  margin-bottom: 15px;
+}
 
-    table.facebook:hover td {
-      background: #2d4473 !important;
-    }
+/* Typography */
+h1, h5 {
+  font-weight: bold;
+}
+h1 {
+  letter-spacing: -0.03em;
+}
+h5 {
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+}
+p.overline {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a8a8a8;
+  letter-spacing: 0.05em;
+}
+p.footer-text {
+  font-size: 10px;
+  color: #a8a8a8;
+}
 
-    table.twitter td {
-      background: #00acee;
-      border-color: #0087bb;
-    }
+/* Steps graphic */
+span.number {
+  display: block;
+  background-color: #aa1c3a;
+  height: 16px;
+  width: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+}
+p.steps-header {
+  font-weight: bold;
+}
 
-    table.twitter:hover td {
-      background: #0087bb !important;
-    }
+/* finished steps */
+span.number.finished {
+  background-color: #ccc;
+}
+p.steps-header.finished,
+p.steps-text.finished {
+  text-decoration: line-through;
+}
 
-    table.google-plus td {
-      background-color: #DB4A39;
-      border-color: #CC0000;
-    }
-
-    table.google-plus:hover td {
-      background: #CC0000 !important;
-    }
-
-    .template-label {
-      color: #ffffff;
-      font-weight: bold;
-      font-size: 11px;
-    }
-
-    .callout .wrapper {
-      padding-bottom: 20px;
-    }
-
-    .callout .panel {
-      background: #ECF8FF;
-      border-color: #b9e5ff;
-    }
-
-    .footer .wrapper {
-      background: #ebebeb;
-    }
-
-    .footer h5 {
-      padding-bottom: 10px;
-    }
-
-    table.columns .text-pad {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-
-    table.columns .left-text-pad {
-      padding-left: 10px;
-    }
-
-    table.columns .right-text-pad {
-      padding-right: 10px;
-    }
-
-    @media only screen and (max-width: 600px) {
-
-      table[class="body"] .right-text-pad {
-        padding-left: 10px !important;
-      }
-
-      table[class="body"] .left-text-pad {
-        padding-right: 10px !important;
-      }
-    }
-
-    /**********************************************
-    * Code for America specific styles            *
-    **********************************************/
-    
-    /* Basic layout */
-    body {
-      background-color: #f2f2f2;
-    }
-    table.body {
-
-    }
-    table.container {
-      background-color: white;
-      margin-top: 30px;
-      margin-bottom: 30px;
-      -webkit-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
-      -moz-box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
-      box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.10);
-    }
-    table.columns .text-pad {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-    table.section {
-      margin-bottom: 30px;
-    }
-    table.heading {
-      margin-bottom: 15px;
-    }
-
-    /* Typography */
-    h1, h5 {
-      font-weight: bold;
-    }
-    h1 {
-      letter-spacing: -0.03em;
-    }
-    h5 {
-      letter-spacing: -0.03em;
-      margin-bottom: 12px;
-    }
-    p.overline {
-      font-size: 12px;
-      text-transform: uppercase;
-      color: #a8a8a8;
-      letter-spacing: 0.05em;
-    }
-    p.footer-text {
-      font-size: 10px;
-      color: #a8a8a8;
-    }
-
-    /* Steps graphic */
-    span.number {
-      display: block;
-      background-color: #aa1c3a;
-      height: 16px;
-      width: 16px;
-      font-size: 16px;
-      font-weight: bold;
-      padding: 6px;
-      color: white;
-      border-radius: 100%;
-      text-align: center;
-    }
-    p.steps-header {
-      font-weight: bold;
-    }
-
-    /* finished steps */
-    span.number.finished {
-      background-color: #ccc;
-    }
-    p.steps-header.finished,
-    p.steps-text.finished {
-      text-decoration: line-through;
-    }
-
-    /* media queries */
-    @media only screen and (max-width: 600px) {
-      h1 { font-size: 24px; }
-      p { font-size: 13px; }
-      p.overline {
-        letter-spacing: 0.03em;
-      }
-      table.button td a {
-        font-size: 13px;
-      }
-      table.section {
-        margin-bottom: 15px;
-      }
-
-    }
-  </style>
+/* media queries */
+@media only screen and (max-width: 600px) {
+  h1 { font-size: 24px; }
+  p { font-size: 13px; }
+  p.overline {
+    letter-spacing: 0.03em;
+  }
+  table.button td a {
+    font-size: 13px;
+  }
+  table.section {
+    margin-bottom: 15px;
+  }
+}
+</style>
 </head>
 <body>
   <table class="body">
@@ -900,45 +826,44 @@ body.outlook p {
                         </tr>
                       </table>
 
-
                       <table class="ten columns section">
-                        <tr>
-                          <td class="text-pad">
-                            <p>Thanks for filling out Step 1 of the application, David Leonard. Keep the ball rolling and get started on Step 2.</p>
-                            <p>Have any questions? Reach out to us at <a href="mailto:fellowship-staff@codeforamerica.org">fellowship-staff@codeforamerica.org</a>.</p>
-                            <table class="button alert">
-                              <tr>
-                                <td>
-                                  <a href="#">Start Step #2: Written Response</a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
+  <tr>
+    <td class="text-pad">
+      <p>Thanks for filling out Step 1 of the application, David Leonard. Keep the ball rolling and get started on Step 2.</p>
+      <p>Have any questions? Reach out to us at <a href="mailto:fellowship-staff@codeforamerica.org">fellowship-staff@codeforamerica.org</a>.</p>
+      <table class="button alert">
+        <tr>
+          <td>
+            <a href="#">Start Step #2: Written Response</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
 
-                      <table class="ten columns section">
-                        <tr>
-                          <td class="text-pad">
-                            <h5>Application Steps</h5>
-                            <p>There are 3 steps in the application process &mdash; you've already completed the first!</p>
-                            
-                            <p><span class="number finished">1</span></p>
-                            <p class="steps-header finished">Step 1: Basic Information</p>
-                            <p class="steps-text finished">Quick questions about you, your skill set, and your background (5 minutes)</p>
-                            
-                            <p><span class="number">2</span></p>
-                            <p class="steps-header">Step 2: Written Responses</p>
-                            <p class="steps-text">In-depth questions about your interest in the fellowship. (15-30 minutes)</p>
-                            
-                            <p><span class="number">3</span></p>
-                            <p class="steps-header">Step 3: Skills Challenge</p>
-                            <p class="steps-text">A 20-30 minute task that tests your chosen skillset.</p>
-                          </td>
-                          <td class="expander"></td>
-                        </tr>
-                      </table>
+<table class="ten columns section">
+  <tr>
+    <td class="text-pad">
+      <h5>Application Steps</h5>
+      <p>There are 3 steps in the application process &mdash; you've already completed the first!</p>
+      
+      <p><span class="number finished">1</span></p>
+      <p class="steps-header finished">Step 1: Basic Information</p>
+      <p class="steps-text finished">Quick questions about you, your skill set, and your background (5 minutes)</p>
+      
+      <p><span class="number">2</span></p>
+      <p class="steps-header">Step 2: Written Responses</p>
+      <p class="steps-text">In-depth questions about your interest in the fellowship. (15-30 minutes)</p>
+      
+      <p><span class="number">3</span></p>
+      <p class="steps-header">Step 3: Skills Challenge</p>
+      <p class="steps-text">A 20-30 minute task that tests your chosen skillset.</p>
+    </td>
+    <td class="expander"></td>
+  </tr>
+</table>
 
                       <table class="ten columns section">
                         <tr>
