@@ -1,0 +1,49 @@
+Email not displaying correctly? View it ( [weblink] ) in your browser.
+
+Code for America: 2016 Fellowship Application
+
+
+Ready to finish your fellowship application?
+============================================
+
+It's finally here! The 2016 Code for America Fellowship Application is now open and we are accepting applications on a rolling basis.
+
+You’ve finished the first step of the application already. When you finish the last two sections we can start reviewing your materials.
+
+****
+Start Step #2: https://cfa.typeform.com/to/nxZhxl?email=[email]&applicantid=[applicantid]&from=05192015-followup-email1&app=true
+****
+
+Remember that the application is rolling this year. This means that the sooner you complete your application, the sooner your application will be reviewed. This greatly increases your chances of being interviewed before than other applicants.
+
+
+Keep in touch
+-------------
+If you have questions, we've got answers. Here's how to reach us:
+
+- Ask a question. Come chat with our staff, past fellows and other applicants by submitting an issue in our GitHub repo ( https://github.com/codeforamerica/apply/issues ).
+
+- Want to ask us directly? Send an email to fellowship-staff@codeforamerica.org.
+
+- Drop into office hours. We'll also be conducting online office hours and offering in-person information sessions over the next few months. Stay up to date on the Fellowship page ( http://www.codeforamerica.org/geeks/fellowship-apply/ ).
+
+
+Application Steps
+-----------------
+There are 3 steps in the application process — you've already completed the first!
+
+Step 1: Basic Information **FINISHED!**
+Quick questions about you, your skill set, and your background (5 minutes)
+
+Step 2: Written Responses
+In-depth questions about your interest in the fellowship. (15-30 minutes)
+
+Step 3: Skills Challenge
+A 20-30 minute task that tests your chosen skillset.
+
+
+
+------
+You received this email because you filled out a 2016 Fellowship Application form. If you have questions or believe you received this email in error, or wish to unsubscribe from future updates, please contact us at fellowship-staff@codeforamerica.org.
+
+Code for America • 155 9th Street • San Francisco, CA 94103 • USA
