@@ -55,4 +55,5 @@ module.exports = function(grunt) {
 
     // Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['jekyll','premailer']);
+    grunt.registerTask('jekkthat', ['jekyll']);
 };
